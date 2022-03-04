@@ -5,17 +5,15 @@ int c = 45;
 
 int main()
 {
+    // **************Build in Data types****************
     int a, b, c;
     cout<<"Enter the value of a:"<<endl;
     cin>>a;
     cout<<"Enter the value of b:"<<endl;
     cin>>b;
-    c = a + b;
+    c = a + b; 
     cout<<"The sum is "<<c<<endl;
     cout<<"The global c is "<<::c<<endl;
-
-    float d = 34.4f;
-    long double e = 34.4l;
-    cout<<"The value of d is "<<d<<endl<<"The value of e is "<<e;
+   
     return 0;
 }
